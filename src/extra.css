@@ -1,0 +1,1081 @@
+/* Extra styles for the new sections (Home, Demo, payment, video, footer) */
+
+.course-card .course-fee {
+  font-weight: 700;
+  color: #7c3aed;
+  font-size: 18px;
+  margin: 6px 0 14px;
+}
+
+.home-more {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* ---------- Features ---------- */
+.features-section {
+  padding: 80px 7%;
+  background: #ffffff;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+}
+
+.feature-card {
+  background: #faf5ff;
+  border: 1px solid #ede9fe;
+  border-radius: 16px;
+  padding: 28px 22px;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.feature-card h3 {
+  color: #222222;
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  color: #666666;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* ---------- Video ---------- */
+.video-frame {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000000;
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-file {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.video-missing {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px 20px;
+  text-align: center;
+  background: #f5f3ff;
+  color: #6d28d9;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/* ---------- Demo page ---------- */
+.demo-page {
+  padding: 70px 7% 90px;
+  min-height: 70vh;
+}
+
+.demo-message {
+  text-align: center;
+  color: #666666;
+  margin-top: 30px;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 28px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+}
+
+.demo-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.1);
+}
+
+.demo-card h3 {
+  margin: 16px 0 6px;
+  color: #222222;
+}
+
+.demo-card p {
+  color: #666666;
+  margin-bottom: 14px;
+}
+
+/* ---------- Payment box ---------- */
+.payment-box {
+  max-width: 520px;
+  margin: 26px auto;
+  padding: 24px;
+  background: #faf5ff;
+  border: 1px solid #ddd6fe;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.payment-box h3 {
+  color: #5b21b6;
+  margin-bottom: 4px;
+}
+
+.payment-note {
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #ffffff;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #222222;
+}
+
+.payment-option.selected {
+  border-color: #7c3aed;
+  background: #f5f3ff;
+}
+
+.payment-box .primary-btn {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* ---------- Footer contact ---------- */
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 16px 0;
+}
+
+.whatsapp-btn {
+  background: #22c55e;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.whatsapp-btn:hover {
+  background: #16a34a;
+}
+
+.footer-email {
+  color: #e9d5ff;
+  text-decoration: none;
+}
+
+/* The Logout button in the navbar uses the same look as the Register link */
+.nav-buttons button.demo-btn {
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- Course picture ---------- */
+.course-photo {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.course-photo-large {
+  max-width: 520px;
+  height: 260px;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+/* ---------- Home: notice, pay video, demo buttons ---------- */
+.notice-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 14px 7%;
+  background: #fef3c7;
+  color: #78350f;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pay-section {
+  padding: 60px 7% 20px;
+}
+
+.demo-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.demo-links .primary-btn {
+  text-decoration: none;
+}
+
+/* ---------- Demo tabs ---------- */
+.demo-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.demo-tab {
+  padding: 12px 24px;
+  border: 2px solid #7c3aed;
+  background: #ffffff;
+  color: #7c3aed;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.demo-tab.active {
+  background: #7c3aed;
+  color: #ffffff;
+}
+
+/* ---------- Contact popup ---------- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3000;
+  padding: 20px;
+}
+
+.modal-box {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 28px;
+  text-align: center;
+}
+
+.modal-box h3 {
+  font-size: 24px;
+  color: #222222;
+}
+
+.modal-name {
+  color: #7c3aed;
+  font-weight: 700;
+  margin: 6px 0 18px;
+}
+
+.modal-note {
+  color: #666666;
+  margin-top: 14px;
+  line-height: 1.5;
+}
+
+.modal-box .whatsapp-btn {
+  display: inline-block;
+}
+
+.modal-close {
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* ---------- Admin demo videos ---------- */
+.admin-demo-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0;
+}
+
+.admin-demo-form input,
+.admin-demo-form select {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  flex: 1 1 200px;
+}
+
+.admin-demo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.admin-demo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  background: #ffffff;
+  border: 1px solid #ede9fe;
+  border-radius: 12px;
+  padding: 14px 18px;
+}
+
+.admin-demo-row p {
+  color: #6b7280;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.admin-demo-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* ---------- Course page: plans, procedures, syllabus ---------- */
+.course-banner {
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 34px 20px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.course-banner h1 {
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.course-banner p {
+  color: #ede9fe;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 640px;
+  margin: 26px auto;
+}
+
+.plan-card {
+  background: #fdf2f8;
+  border: 1px solid #fbcfe8;
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+}
+
+.plan-card h3 {
+  color: #222222;
+  margin-bottom: 8px;
+}
+
+.plan-fee {
+  font-size: 20px;
+  font-weight: 700;
+  color: #be185d;
+  margin-bottom: 14px;
+}
+
+.plan-card .primary-btn {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.enrolled-box {
+  margin: 20px auto;
+}
+
+.info-section {
+  max-width: 720px;
+  margin: 34px auto 0;
+  text-align: left;
+}
+
+.info-section h2 {
+  text-align: center;
+  color: #222222;
+  margin-bottom: 14px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-list li {
+  position: relative;
+  padding: 8px 0 8px 22px;
+  color: #444444;
+  line-height: 1.6;
+}
+
+.info-list li::before {
+  content: "#";
+  position: absolute;
+  left: 0;
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+.admin-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+  margin-bottom: 12px;
+}
+
+/* ---------- Course banner spacing ---------- */
+.course-details .course-banner {
+  padding: 44px 24px;
+}
+
+.course-details .course-banner h1 {
+  line-height: 1.25;
+  margin: 0 0 18px;
+}
+
+.course-details .course-banner p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+/* ---------- Dashboard: class packages ---------- */
+.empty-warning {
+  color: #dc2626;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px 0 20px;
+}
+
+.empty-course-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.package-info {
+  color: #555555;
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.package-info.expired-text {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.terms-row {
+  margin: 6px 0 16px;
+  font-size: 14px;
+  color: #555555;
+}
+
+.terms-row input {
+  width: auto;
+  margin-right: 6px;
+}
+
+/* ---------- Plans: India / Other country ---------- */
+.plan-groups {
+  max-width: 640px;
+  margin: 26px auto;
+}
+
+.plan-group {
+  margin-bottom: 26px;
+}
+
+.plan-title {
+  text-align: center;
+  color: #222222;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.plan-groups .plan-grid {
+  margin: 0 auto;
+}
+
+.plan-card.other {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.plan-card.other .plan-fee {
+  color: #15803d;
+}
+
+.plan-card.other .primary-btn {
+  background: #16a34a;
+}
+
+/* ================= New home page (banner + yellow buttons) ================= */
+.home-live {
+  background: #dcdcdc;
+  min-height: 100vh;
+}
+
+.home-banner {
+  position: relative;
+  min-height: 430px;
+  padding: 40px 20px 34px;
+  text-align: center;
+  color: #ffffff;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.05) 0 6px,
+      rgba(0, 0, 0, 0.05) 6px 12px
+    ),
+    linear-gradient(135deg, #c40000 0%, #8c0000 100%);
+}
+
+/* light grey curve at the bottom of the banner */
+.home-banner::before {
+  content: "";
+  position: absolute;
+  left: -25%;
+  right: -25%;
+  bottom: -62%;
+  height: 90%;
+  background: #e2e2e2;
+  border-radius: 50%;
+  transform: rotate(-6deg);
+  z-index: 0;
+}
+
+.banner-slide {
+  position: relative;
+  z-index: 1;
+  animation: bannerFade 0.6s ease;
+}
+
+@keyframes bannerFade {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.banner-circle {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 9px solid #facc15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.4),
+    inset 0 0 18px rgba(0, 0, 0, 0.1);
+}
+
+.banner-art {
+  width: 80%;
+  height: 80%;
+}
+
+.banner-slide h2 {
+  font-size: 28px;
+  color: #ffffff;
+  margin: 0 0 4px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+}
+
+.banner-slide p {
+  color: #fde68a;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.banner-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.28);
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.banner-arrow:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.banner-arrow.left {
+  left: 12px;
+}
+
+.banner-arrow.right {
+  right: 12px;
+}
+
+.home-top-buttons {
+  background: #808080;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px;
+}
+
+.yellow-btn {
+  display: inline-block;
+  background: #fcc00a;
+  color: #222222;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.yellow-btn:hover {
+  background: #eab308;
+}
+
+.yellow-btn.wide {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto 16px;
+}
+
+.home-block {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 18px;
+}
+
+.home-intro {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #222222;
+  margin-bottom: 16px;
+}
+
+.home-notice {
+  text-align: center;
+  color: #dc2626;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.7;
+  margin-top: 18px;
+}
+
+.home-heading {
+  text-align: center;
+  font-size: 40px;
+  color: #111111;
+  margin-bottom: 22px;
+}
+
+.home-course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 220px));
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.home-course-tile {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.home-course-image {
+  aspect-ratio: 1 / 1;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.photo-fallback {
+  font-size: 70px;
+}
+
+.home-course-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-course-label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d6efd;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 19px;
+  text-align: center;
+  padding: 14px 8px;
+  margin: 8px -8px -8px;
+  border-radius: 0 0 6px 6px;
+}
+
+.home-demo-buttons {
+  margin-top: 10px;
+}
+
+/* ================= Course page (same layout as the live site) ================= */
+.course-live {
+  background: #d9d9d9;
+  min-height: 100vh;
+}
+
+.live-banner {
+  background: #0d6efd;
+  color: #ffffff;
+  text-align: center;
+  padding: 46px 16px;
+}
+
+.live-banner h1 {
+  color: #ffffff;
+  font-size: clamp(30px, 6vw, 48px);
+  margin: 0;
+}
+
+.live-home {
+  background: #ffffff;
+  padding: 16px 24px;
+  font-size: 28px;
+}
+
+.live-home a {
+  text-decoration: none;
+}
+
+.live-body {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 10px 18px 50px;
+}
+
+.live-validity {
+  text-align: center;
+  font-size: clamp(28px, 6vw, 40px);
+  color: #222222;
+  margin: 28px 0 12px;
+}
+
+.live-fee {
+  background: #fdecf1;
+  text-align: center;
+  padding: 12px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.live-pay {
+  display: block;
+  width: calc(100% - 60px);
+  margin: 0 auto 24px;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #17a2b8;
+  cursor: pointer;
+}
+
+.live-pay.green {
+  background: #28a745;
+}
+
+.live-pay:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.live-heading {
+  text-align: center;
+  font-size: clamp(28px, 6vw, 40px);
+  color: #111111;
+  margin: 40px 0 16px;
+}
+
+.live-list {
+  list-style: none;
+  padding: 0 8px;
+  margin: 0;
+}
+
+.live-list li {
+  font-size: 20px;
+  line-height: 1.9;
+  color: #222222;
+}
+
+.live-list li::before {
+  content: "#. ";
+  font-weight: 700;
+}
+
+.live-actions {
+  margin-top: 34px;
+}
+
+/* ---------- Payment popup ---------- */
+.pay-modal {
+  text-align: left;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.pay-modal h3 {
+  color: #5b21b6;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.pay-modal .payment-note {
+  text-align: center;
+}
+
+.pay-modal .pay-confirm {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 14px;
+  font-size: 18px;
+}
+
+.pay-modal .modal-close {
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* ================= Demo page (blue header, white video cards) ================= */
+.demo-live {
+  background: #0d6efd;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.demo-live-head {
+  padding: 30px 20px 10px;
+  color: #ffffff;
+}
+
+.demo-live-head h1 {
+  color: #ffffff;
+  font-size: clamp(30px, 7vw, 46px);
+  margin: 0 0 10px;
+}
+
+.demo-home {
+  display: inline-block;
+  font-size: 28px;
+  text-decoration: none;
+  margin: 6px 0 12px;
+}
+
+.demo-live .demo-tabs {
+  justify-content: flex-start;
+  margin-top: 4px;
+}
+
+.demo-live .demo-tab {
+  background: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.demo-live .demo-tab.active {
+  background: #ffffff;
+  color: #0d6efd;
+}
+
+.demo-live-body {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 10px 16px;
+}
+
+.demo-live-card {
+  background: #f8f9fa;
+  padding: 8px 14px 16px;
+  margin-bottom: 24px;
+}
+
+.demo-live-card h3 {
+  color: #e00000;
+  text-align: center;
+  font-size: clamp(22px, 5vw, 30px);
+  margin: 4px 0 10px;
+}
+
+.demo-live-message {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* ================= Dashboard top (blue welcome bar) ================= */
+.live-welcome {
+  background: #0d6efd;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 26px 24px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.live-signout {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.empty-big-red {
+  color: #ff0000;
+  font-size: clamp(28px, 6vw, 42px);
+  line-height: 1.4;
+  margin: 10px 0;
+}
+
+.empty-big-blue {
+  color: #0000ff;
+  font-size: clamp(26px, 5vw, 36px);
+  font-weight: 700;
+  margin: 8px 0 18px;
+}
+
+/* ---------- Admin: add lesson videos in bulk ---------- */
+.bulk-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.bulk-select,
+.bulk-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.bulk-box .primary-btn {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 14px;
+}
+
+.bulk-heading {
+  margin: 10px 0 14px;
+}
+
+/* ---------- Home banner picture (public/banner.webp) ---------- */
+.home-banner-photo {
+  background: #e2e2e2;
+}
+
+.home-banner-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
